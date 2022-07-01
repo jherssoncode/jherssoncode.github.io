@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* %%%%%%%%% HEADER %%%%%%%%%%%%%% */
+
+.header-caja {
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* margin: 10px 20px; */
+  /* padding: 10px; */
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo:hover{
+  background-color: black;
+}
+
+.listalogo {
+  padding: 10px 0;
+}
+
+.listalogo li {
+  list-style: none;
+}
+
+.listalogo li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.logo-img {
+  width: 50px;
+  transform: scale(1);
+  filter: invert(1);
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.ul-nav {
+  list-style: none;
+  display: flex;
+}
+
+.ul-nav .nav-link {
+  padding: 18px;
+}
+
+.ul-nav .nav-link a {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+
+
+.ul-nav .nav-link .icono-comprar{
+  transform: scale(0.9);
+  filter: invert(1);
+}
+
+.ul-nav .nav-link:hover{
+  background-color: black;
+}
+
+
+/* %%%%%% MAIN $$$$$$ */
+
+.cards {
+  display: flex;
+  /* justify-content: flex-start; */
+  justify-content: space-evenly;
+  width: 980px;
+  margin: 0px auto;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* background-color: aqua; */
+  align-content: flex-start;
+}
+
+.box-card {
+  box-sizing: border-box;
+  /* background-color: blueviolet; */
+  margin: 10px 20px;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  transition: all 300ms;
+}
+
+.box-card:hover {
+    border: 2px solid black;
+    border-radius: 10px;
+    /* opacity: 0.8; */
+    transform: scale(1.05);
+}
+
+.objeto img{
+  width: 100px;
+  
+
+}
+
+.card-info {
+  margin: 10px;
+  width: 90%;
+  padding: 10px;
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.descripcion-del-producto {
+  padding: 10px 0;
+}
+
+.precio {
+  color: brown;
+}
+
+.marca {
+  color: gray;
+}
+
+.icono-comprar {
+  color: white;
+
+}
+
+/* %%%%%%%% PAGINACIÓN %%%%%%%%%%%% */
+
+.box-paginacion {
+  max-width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.paginacion-inner {
+  text-align: center;
+  list-style: none;
+  margin: 20px auto;
+}
+
+.paginacion-inner li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.paginacion-active .paginacion-item {
+  font-style: normal;
+  font-weight: 700;
+  color: #4c5154;
+  text-decoration: none;
+}
+
+
+
+/* %%%%%%%%%%% FOOTER %%%%%%%%%%%% */
+
+footer {
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+  margin-top: 20px;
+}
+
+.derechos {
+  color: white;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.redes-sociales {
+  display: flex;
+}
+
+.redes-sociales ul {
+  list-style: none;
+  display: flex;
+}
+
+.redes-sociales ul li a {
+  margin: 0 10px;
+  
+}
+
+.redes {
+  transform: scale(0.5);
+  filter: invert(1);
+  padding: 10px;
+}
+
+.redes-sociales ul li:hover{
+  background-color: black;
+}
+
+
+
+
+
+
+
